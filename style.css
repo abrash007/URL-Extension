@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+#input-el {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 1px;
+  margin-bottom: 10px;
+  width: 40%;
+}
+.btn-container {
+  justify-content: space-between; /* align the buttons horizontally */
+}
+
+#input-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#input-btn:hover {
+  background-color: darkgreen;
+}
+
+#delete-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#delete-btn:hover {
+  background-color: darkred;
+}
+li {
+  list-style: none; /* remove bullet points */
+  margin: 10px; /* add margin to the top and bottom */
+  padding: 5px; /* add padding around the text */
+  margin-left: -10px;
+}
+
+a {
+  color: green; /* change the link color to blue */
+  text-decoration: none; /* remove underline from the link */
+}
+
+a:hover {
+  color: darkgreen; /* change the link color to red when the mouse hovers over it */
+}
+#save-tab {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+#save-tab:hover {
+  background-color: darkgreen;
+}
+
+#save-tab:active {
+  background-color: forestgreen;
+}
